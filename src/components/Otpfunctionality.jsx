@@ -10,6 +10,7 @@ const Otpfunctionality=({otplength=6})=>{
  },[])
 //  console.log(myref)
 //  console.log(otpfield);
+// nfjnjjfkd
 const otpHandler=(e,index)=>{
     let Key=e.key;
     const copyotp=[...otpfield];
