@@ -3,6 +3,7 @@ import Navfun from "./components/Navfun";
 // import Mobilenav from "./components/Mobilenav";
 // import Navbar from "./components/Navbar";
 import Otpfunctionality from "./components/Otpfunctionality";
+import Cashingtech from "./components/Cashingtech";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Navfun />
       <Routes>
         <Route path="/otpfunctionality" element={<Otpfunctionality />} />
+        <Route path="/search" element={<Cashingtech />} />
       </Routes>
     </div>
   );

@@ -10,6 +10,9 @@ const Navfun=()=>{
         <Link to="/otpfunctionality">
         <p className="mt-[10px] mr-[30px] text-icon" >Otp Functionality</p>
         </Link>
+        <Link to="/search">
+        <p className="mt-[10px] mr-[30px] text-icon" >Search</p>
+        </Link>
         </div>
         </>
     )
